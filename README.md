@@ -20,12 +20,28 @@ AyuVibe is an Ayurvedic medicine application that helps users connect with Ayurv
 
 ## Project Structure
 
-ayuvibe/ ├── backend/ # FastAPI backend code │ ├── app/ │ │ ├── main.py # Main FastAPI app │ │ ├── models.py # Database models │ │ ├── schemas.py # Request/Response schemas │ │ ├── routes/ # API routes for users, doctors, herbs, chatbot │ │ ├── db.py # Database connection setup │ └── Dockerfile # Dockerfile for FastAPI ├── frontend/ # React frontend code │ ├── public/ # Public static files │ ├── src/ │ │ ├── components/ # React components for login, doctor directory, etc. │ │ ├── pages/ # Pages like Home, Doctor Profile, Herb Detail │ │ ├── App.js # Main React app component │ │ ├── index.js # React entry point │ └── Dockerfile 
+ayuvibe/
+├── backend/
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── models.py
+│   │   ├── schemas.py
+│   │   ├── routes/
+│   │   ├── db.py
+│   └── Dockerfile
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.js
+│   │   ├── index.js
+│   └── Dockerfile
+├── docker-compose.yml
+└── README.md
 
-# Dockerfile for React ├── docker-compose.yml # Docker Compose for full stack setup └── README.md 
 
 # Project documentation
-
 
 ## Installation
 
@@ -39,4 +55,5 @@ To run this project locally, follow these steps:
 ```bash
 git clone https://github.com/your-username/ayuvibe.git
 cd ayuvibe
+```
 
