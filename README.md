@@ -20,6 +20,7 @@ AyuVibe is an Ayurvedic medicine application that helps users connect with Ayurv
 
 ## Project Structure
 
+```
 ayuvibe/
 ├── backend/
 │   ├── app/
@@ -39,7 +40,7 @@ ayuvibe/
 │   └── Dockerfile
 ├── docker-compose.yml
 └── README.md
-
+```
 
 # Project documentation
 
