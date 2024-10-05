@@ -58,3 +58,22 @@ git clone https://github.com/your-username/ayuvibe.git
 cd ayuvibe
 ```
 
+# Contributing
+If you'd like to contribute to AyuVibe, please follow these steps:
+
+### Fork the repository.
+  1. Create a new branch for your feature or bugfix (git checkout -b feature-name).
+  2. Commit your changes (git commit -am 'Add new feature').
+  3. Push to the branch (git push origin feature-name).
+  4. Open a Pull Request.
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+### Steps to follow:
+1. Replace `your-username` with your GitHub username in the repository link.
+2. Add a `LICENSE` file if required.
+
+This README file gives a comprehensive guide to your project’s structure, setup, and how to contribute, which will help others understand the project easily.
+
